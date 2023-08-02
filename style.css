@@ -1,0 +1,209 @@
+/*style.css*/
+
+/*Сброс стилей*/
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Шапка*/
+
+header {
+    width: 1340px;
+    padding: 101px 130px 0;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #EDA418 47.4%, rgba(237, 164, 24, 0) 100%);
+    position: relative;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 168px;
+}
+
+.logo {
+    position: absolute;
+    top: 113px;
+}
+
+.nav_nemu_list {
+    width: 670px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_menu_button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.nav_nemu_link {
+    font-size: 25px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.nav_nemu_link#link1 {
+    font-weight: 700;
+}
+
+.nav_nemu_link:hover {
+    color: #fff;
+}
+
+.header_inner {
+    margin: 19px 0 106px;
+    display: flex;
+}
+
+.hero_list-title {
+    margin: 173px 38px 0 0;
+    width: 572px;
+    height: 63px;
+    flex-shrink: 0;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.hero_list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 29px 0;
+}
+
+.hero_list-btn {
+    padding: 14px 18px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    border: none;
+    background-color: #e62626;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.hero_list-btn:hover {
+    background-color: #881414;
+}
+
+/*Тело*/
+
+.main {
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main-menu_title {
+    text-align: center;
+    width: 100%;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 0 38px 0;
+}
+
+.main-menu_item {
+    width: 450px;
+}
+
+.main-menu_list {
+    padding: 0 87px;
+}
+
+.main-menu_items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-title {
+    margin: 14px 0 46px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0em;
+}
+
+.main-img {
+    width: 100%;
+}
+
+/*Подвал*/
+
+footer {
+    width: 1340px;
+    padding: 157px 130px 75px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #EDA61D 100%);
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text {
+    text-align: center;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;   
+}
+
+.footer_text:first-child {
+    margin: 45px 0 24px; 
+}
+
+.footer-item {
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    padding: 0 50px 0;
+}
+
+.footer-item:first-child {
+    font-weight: 500;
+}
+
+.footer-text-box {
+    margin-bottom: 17px;
+}
